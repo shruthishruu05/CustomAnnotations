@@ -2,7 +2,8 @@ package com.bridgelabz.customannotations;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
-public class AnnotationExample {
+public class AnnotationExample 
+{
 	@Override
 	@MethodInfo(author = "Shruthi", comments = "Main method", date = "Aug 17 2012", revision =1)
 	public String toString() {
